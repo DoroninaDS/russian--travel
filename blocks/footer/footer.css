@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
     margin: 92px auto 24px;
+    padding: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
     .footer {
         max-width: calc(100% - 2 * 24px);
         margin: 88px auto 24px;

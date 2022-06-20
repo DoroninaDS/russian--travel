@@ -7,14 +7,19 @@
     line-height: 1.63;
 }
 
-place__paragraph:last-of-type {
+.place__paragraph:last-of-type {
     padding-bottom: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
     .place__paragraph {
         padding-bottom: 25px;
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .place__paragraph {
         margin: 0 16px;
     }
 }
